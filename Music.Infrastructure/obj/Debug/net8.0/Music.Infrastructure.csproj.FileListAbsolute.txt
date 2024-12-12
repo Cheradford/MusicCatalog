@@ -1,0 +1,17 @@
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\bin\Debug\net8.0\Music.Infrastructure.deps.json
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\bin\Debug\net8.0\Music.Infrastructure.runtimeconfig.json
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\bin\Debug\net8.0\Music.Infrastructure.dll
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\bin\Debug\net8.0\Music.Infrastructure.pdb
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\bin\Debug\net8.0\Music.Domain.dll
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\bin\Debug\net8.0\Music.Domain.pdb
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\Music.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\Music.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\Music.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\Music.Infrastructure.AssemblyInfo.cs
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\Music.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\Music.In.9C895CB4.Up2Date
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\Music.Infrastructure.dll
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\refint\Music.Infrastructure.dll
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\Music.Infrastructure.pdb
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\Music.Infrastructure.genruntimeconfig.cache
+C:\Users\User\RiderProjects\WpfApp1\Music.Infrastructure\obj\Debug\net8.0\ref\Music.Infrastructure.dll

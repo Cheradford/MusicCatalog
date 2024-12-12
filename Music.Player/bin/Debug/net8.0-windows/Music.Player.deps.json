@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Music.Player/1.0.0": {
+        "dependencies": {
+          "LibVLCSharp": "3.9.1",
+          "LibVLCSharp.WPF": "3.9.1",
+          "VideoLAN.LibVLC.Windows": "3.0.21"
+        },
+        "runtime": {
+          "Music.Player.dll": {}
+        }
+      },
+      "LibVLCSharp/3.9.1": {
+        "runtime": {
+          "lib/net8.0/LibVLCSharp.dll": {
+            "assemblyVersion": "3.9.1.0",
+            "fileVersion": "3.9.1.0"
+          }
+        }
+      },
+      "LibVLCSharp.WPF/3.9.1": {
+        "dependencies": {
+          "LibVLCSharp": "3.9.1"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/LibVLCSharp.WPF.dll": {
+            "assemblyVersion": "3.9.1.0",
+            "fileVersion": "3.9.1.0"
+          }
+        }
+      },
+      "VideoLAN.LibVLC.Windows/3.0.21": {}
+    }
+  },
+  "libraries": {
+    "Music.Player/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibVLCSharp/3.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SNvZz5bIJJ0GAaywmXyskZ+ZO42vomDUWXIo5qDpsG9x2kdQrtOuqRx/KNQDnbxBBStYXQUI7DlhzJwz/3xG6g==",
+      "path": "libvlcsharp/3.9.1",
+      "hashPath": "libvlcsharp.3.9.1.nupkg.sha512"
+    },
+    "LibVLCSharp.WPF/3.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SiXkJWWAVgboYY6sZlZYSHJXhvCUOjmzWwqsPg5B/BjZ4AqzoT4dWbSE2ZslG3a5neu+WGDMYNYJmSugjN88oQ==",
+      "path": "libvlcsharp.wpf/3.9.1",
+      "hashPath": "libvlcsharp.wpf.3.9.1.nupkg.sha512"
+    },
+    "VideoLAN.LibVLC.Windows/3.0.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1b1yjZPIzS2+s6YZv9Z5Co/q2srIvo03ZToPvZblWreeyeFGkLDwX7WZat8AxCB9uMQV6VUnms67SgQqko7Z0w==",
+      "path": "videolan.libvlc.windows/3.0.21",
+      "hashPath": "videolan.libvlc.windows.3.0.21.nupkg.sha512"
+    }
+  }
+}

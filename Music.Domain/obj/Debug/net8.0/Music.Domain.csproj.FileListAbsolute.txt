@@ -1,0 +1,12 @@
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\bin\Debug\net8.0\Music.Domain.deps.json
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\bin\Debug\net8.0\Music.Domain.dll
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\bin\Debug\net8.0\Music.Domain.pdb
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\obj\Debug\net8.0\Music.Domain.csproj.AssemblyReference.cache
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\obj\Debug\net8.0\Music.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\obj\Debug\net8.0\Music.Domain.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\obj\Debug\net8.0\Music.Domain.AssemblyInfo.cs
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\obj\Debug\net8.0\Music.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\obj\Debug\net8.0\Music.Domain.dll
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\obj\Debug\net8.0\refint\Music.Domain.dll
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\obj\Debug\net8.0\Music.Domain.pdb
+C:\Users\User\RiderProjects\WpfApp1\Music.Domain\obj\Debug\net8.0\ref\Music.Domain.dll

@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HandyControls" Version="3.5.3" />
+      <PackageReference Include="HandyControls.Lang.ru" Version="3.5.3" />
+      <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
+      <PackageReference Include="WpfExtensions.Binding" Version="1.1.0" />
+      <PackageReference Include="WpfExtensions.Xaml" Version="1.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Music.Domain\Music.Domain.csproj" />
+      <ProjectReference Include="..\Music.Infrastructure\Music.Infrastructure.csproj" />
+      <ProjectReference Include="..\Music.Player\Music.Player.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Update="Frames\Application\CreateGenre.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="Frames\Application\MainWindow.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Compile Remove="App.cs" />
+      <Compile Remove="Program.cs" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Folder Include="Media\" />
+    </ItemGroup>
+
+</Project>

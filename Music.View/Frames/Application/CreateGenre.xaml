@@ -1,0 +1,24 @@
+﻿<Window x:Class="Music.View.Frames.Application.CreateGenre"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Music.View.Frames"
+        mc:Ignorable="d"
+        Title="CreateGenre" Height="300">
+    <Grid VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Создание нового жанра" HorizontalAlignment="Center" VerticalAlignment="Top"
+               FontSize="18" />
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center">
+            <TextBox x:Name="TextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200">Название жанра</TextBox>
+        </StackPanel>
+        <Button Grid.Row="2" x:Name="Button" Content="Создать" HorizontalAlignment="Center" VerticalAlignment="Center"
+                Click="AddNewGenre">
+        </Button>
+    </Grid>
+</Window>

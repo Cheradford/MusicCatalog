@@ -1,0 +1,59 @@
+﻿<Window x:Class="Music.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="True">
+
+        <hc:ButtonGroup Orientation="Vertical" MinWidth="200" VerticalAlignment="Center"
+                        Style="{StaticResource ButtonGroupSolid}">
+            <Button Content="Добавить артиста" Click="MakeArtistCreateWindow" />
+            <Button Content="Добавить жанр" Click="MakeGenreCreateWindow" />
+            <Button Content="Создать альбом" Click="MakeAlbumCreateWindow" />
+            <Button Content="Добавить песню" Click="CreateSongButton" />
+            <Button Content="Создать плейлист" Click="CreatePlaylist" />
+        </hc:ButtonGroup>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <hc:TabControl Grid.Row="0" HorizontalAlignment="Stretch" IsScrollable="True"
+                           CanBeClosedByMiddleButton="True">
+                <hc:TabItem Header="Обзор" ShowCloseButton="True">
+                    <StackPanel x:Name="ReviewPanel" Margin="30">
+                        <TextBlock Style="{StaticResource TextBlockTitleBold}" Text="Жанры" HorizontalAlignment="Left"/>
+                        <StackPanel x:Name="Genres"></StackPanel>
+                        <TextBlock Style="{StaticResource TextBlockTitleBold}" Text="Альбомы" HorizontalAlignment="Left"/>
+                        <hc:ScrollViewer IsPenetrating="True">
+                            <StackPanel Orientation="Horizontal" x:Name="Albums"></StackPanel>
+                        </hc:ScrollViewer>
+                        
+                    </StackPanel>
+                </hc:TabItem>
+                <hc:TabItem Header="Вкладка 2">
+                    <TextBlock Text="Содержимое второй вкладки" />
+                </hc:TabItem>
+            </hc:TabControl>
+            <hc:Row Grid.Row="1">
+                <hc:Col Span="4">
+                    <Button Click="Play">
+                        <Image Height="20" Source="../../Media/Play.svg"/>
+                    </Button>
+                </hc:Col>
+                <hc:Col Span="16">
+                    <Slider Value="50" Minimum="0" Maximum="100" SelectionStart="0" Width="400"
+                            IsSelectionRangeEnabled="True" Orientation="Horizontal" />
+                </hc:Col>
+                <hc:Col Span="4">
+                    <Slider Value="50" Minimum="0" Maximum="100" SelectionStart="0" Width="100"
+                            IsSelectionRangeEnabled="True" Orientation="Horizontal" />
+                </hc:Col>
+            </hc:Row>
+        </Grid>
+    </DockPanel>
+</Window>
